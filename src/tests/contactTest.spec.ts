@@ -4,6 +4,7 @@ import logger from "../utils/LoggerUtil";
 import { decrypt } from "../utils/CryptojsUtil";
 import cdata from "../testdata/contacts.json"
 import { demoOutput } from "../utils/fakerSample";
+import { faker } from "@faker-js/faker";
 
 for(const contact of cdata){
 test.skip(`Advance Data Driven test for ${contact.firstName} `, async ({ page }) => {
@@ -28,10 +29,10 @@ test.skip(`Advance Data Driven test for ${contact.firstName} `, async ({ page })
 
 
 
-test.skip("simple Data Driven test with hardcoded value", async ({ page }) => {
+test("simple Data Driven test with hardcoded value", async ({ page }) => {
     logger.info("Test for Contact Creation is started...");
-    const fname = "Shiva";
-    const lname = "Rudra";
+    const fname = faker.person.firstName('male');
+    const lname = faker.person.lastName('male');
     const loginPage = new LoginPage(page);
     await loginPage.navigateToLoginPage();
     await loginPage.fillUsername(decrypt(process.env.userid!));
@@ -50,7 +51,7 @@ test.skip("simple Data Driven test with hardcoded value", async ({ page }) => {
   });
 
 
-  test("demo faker", async () => { 
+  test.skip("demo faker", async () => { 
 
     console.log(demoOutput)
   
