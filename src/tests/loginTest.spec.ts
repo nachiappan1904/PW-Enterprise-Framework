@@ -2,14 +2,16 @@ import {test} from "@playwright/test";
 import LoginPage from "../pages/LoginPage";
 import { decrypt, encrypt } from "../utils/CryptojsUtil";
 import { decryptEnvFile, encryptEnvFile } from "../utils/Encryptenvfile";
+import logger from "../utils/LoggerUtil";
 
-test.skip("test",async ({page})=>{
+test("TC-123: Login to salesforce",async ({page})=>{
+logger.info("TC-123: Login to salesforce");
 const loginPage = new LoginPage(page);
 await loginPage.navigateToLoginPage();
-console.log(process.env.NODE_ENV);
-console.log(process.env.SALT);
-console.log(decrypt(process.env.userid!));
-console.log(decrypt(process.env.password!));
+// console.log(process.env.NODE_ENV);
+// console.log(process.env.SALT);
+// console.log(decrypt(process.env.userid!));
+// console.log(decrypt(process.env.password!));
 await loginPage.fillUsername(decrypt(process.env.userid!));
 await loginPage.fillPassword(decrypt(process.env.password!));
 
@@ -17,7 +19,7 @@ const homePage = await loginPage.clickLoginButton();
 await homePage.expectSetupTitleToBeVisible();
 });
 
-test("Sample env test",({page})=>{
+test.skip("Sample env test",({page})=>{
     // console.log(process.env.NODE_ENV);
     // console.log(process.env.userid);
     // console.log(process.env.password);
@@ -28,7 +30,7 @@ test("Sample env test",({page})=>{
     // console.log('Encrypted:', encryptedText);
     // const decryptedText = decrypt(encryptedText);
     // console.log('Decrpted:', decryptedText);
-    encryptEnvFile();
-    //decryptEnvFile();
+    // encryptEnvFile();
+    // decryptEnvFile();
 
 });
