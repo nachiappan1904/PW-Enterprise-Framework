@@ -20,7 +20,6 @@ await expect(this.page.locator(this.SetupTitleLocator))
 
 async clickAppLauncher(){
 await expect(this.page.getByTitle("App Launcher"))
-.to
 
 }
 }
