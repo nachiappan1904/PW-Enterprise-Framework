@@ -17,6 +17,9 @@ await loginPage.fillPassword(decrypt(process.env.password!));
 
 const homePage = await loginPage.clickLoginButton();
 await homePage.expectSetupTitleToBeVisible();
+await homePage.clickAppLauncher();
+await homePage.clickServiceInAppLauncher();
+await homePage.navigateToContactTab();
 });
 
 test.skip("Sample env test",({page})=>{

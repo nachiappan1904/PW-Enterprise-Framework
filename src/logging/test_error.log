@@ -1,9 +1,5 @@
-2024-10-18T12:00:49+05:30 [error]: Eror clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
-
-Locator: locator('//span[@title=\'Setupp\']')
-Expected: visible
-Received: <element(s) not found>
+2024-10-18T17:00:05+05:30 [error]: Unableto click on Service link in App launcher
+2024-10-18T17:04:14+05:30 [error]: Error clicking Save button: Error: locator.click: Test timeout of 30000ms exceeded.
 Call log:
-  [2m- expect.toBeVisible with timeout 15000ms[22m
-[2m  - waiting for locator('//span[@title=\'Setupp\']')[22m
+  [2m- waiting for getByRole('button', { name: 'Save', exact: true })[22m
 

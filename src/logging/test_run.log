@@ -1,20 +1,156 @@
-2024-10-18T11:59:03+05:30 [info]: TC-123: Login to salesforce
-2024-10-18T11:59:04+05:30 [info]: Navigated to login.salesforce.com
-2024-10-18T11:59:04+05:30 [info]: Filled Username
-2024-10-18T11:59:04+05:30 [info]: Filled Password
-2024-10-18T11:59:07+05:30 [info]: Clicked login button
-2024-10-18T11:59:14+05:30 [info]: Setup Title is visible
-2024-10-18T12:00:31+05:30 [info]: TC-123: Login to salesforce
-2024-10-18T12:00:32+05:30 [info]: Navigated to login.salesforce.com
-2024-10-18T12:00:32+05:30 [info]: Filled Username
-2024-10-18T12:00:32+05:30 [info]: Filled Password
-2024-10-18T12:00:34+05:30 [info]: Clicked login button
-2024-10-18T12:00:49+05:30 [error]: Eror clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
-
-Locator: locator('//span[@title=\'Setupp\']')
-Expected: visible
-Received: <element(s) not found>
+2024-10-18T14:06:39+05:30 [info]: TC-123: Login to salesforce
+2024-10-18T14:06:40+05:30 [info]: Navigated to login.salesforce.com
+2024-10-18T14:06:40+05:30 [info]: Filled Username
+2024-10-18T14:06:40+05:30 [info]: Filled Password
+2024-10-18T14:06:42+05:30 [info]: Clicked login button
+2024-10-18T14:06:48+05:30 [info]: Setup Title is visible
+2024-10-18T14:06:48+05:30 [info]: Clicked on App launcher icon
+2024-10-18T14:06:50+05:30 [info]: Clicked on Service link in App launcher
+2024-10-18T14:06:53+05:30 [info]: Contacts tab is visible
+2024-10-18T14:06:53+05:30 [info]: Contacts Tab is clicked
+2024-10-18T15:59:37+05:30 [info]: Test for Contact Creation is started...
+2024-10-18T15:59:39+05:30 [info]: Navigated to login.salesforce.com
+2024-10-18T15:59:39+05:30 [info]: Filled Username
+2024-10-18T15:59:39+05:30 [info]: Filled Password
+2024-10-18T15:59:40+05:30 [info]: Clicked login button
+2024-10-18T15:59:45+05:30 [info]: Setup Title is visible
+2024-10-18T16:01:37+05:30 [info]: Test for Contact Creation is started...
+2024-10-18T16:01:38+05:30 [info]: Navigated to login.salesforce.com
+2024-10-18T16:01:38+05:30 [info]: Filled Username
+2024-10-18T16:01:38+05:30 [info]: Filled Password
+2024-10-18T16:01:40+05:30 [info]: Clicked login button
+2024-10-18T16:01:45+05:30 [info]: Setup Title is visible
+2024-10-18T16:01:45+05:30 [info]: Clicked on App launcher icon
+2024-10-18T16:01:46+05:30 [info]: Clicked on Service link in App launcher
+2024-10-18T16:01:50+05:30 [info]: Contacts tab is visible
+2024-10-18T16:01:50+05:30 [info]: Contacts Tab is clicked
+2024-10-18T16:07:17+05:30 [info]: Test for Contact Creation is started...
+2024-10-18T16:07:18+05:30 [info]: Navigated to login.salesforce.com
+2024-10-18T16:07:18+05:30 [info]: Filled Username
+2024-10-18T16:07:18+05:30 [info]: Filled Password
+2024-10-18T16:07:20+05:30 [info]: Clicked login button
+2024-10-18T16:07:25+05:30 [info]: Setup Title is visible
+2024-10-18T16:07:25+05:30 [info]: Clicked on App launcher icon
+2024-10-18T16:07:26+05:30 [info]: Clicked on Service link in App launcher
+2024-10-18T16:07:29+05:30 [info]: Contacts tab is visible
+2024-10-18T16:07:29+05:30 [info]: Contacts Tab is clicked
+2024-10-18T16:07:30+05:30 [info]: New button isclicked
+2024-10-18T16:07:33+05:30 [info]: First nameis filled as Shiva
+2024-10-18T16:07:33+05:30 [info]: Last nameis filled as Rudra
+2024-10-18T16:07:33+05:30 [info]: Save button is cicked
+2024-10-18T16:07:35+05:30 [info]: New Contacted created and Shiva Rudra is visible
+2024-10-18T16:07:35+05:30 [info]: Test for Contact Creation is completed
+2024-10-18T16:59:36+05:30 [info]: Test for Contact Creation is started...
+2024-10-18T16:59:36+05:30 [info]: Test for Contact Creation is started...
+2024-10-18T16:59:37+05:30 [info]: Navigated to login.salesforce.com
+2024-10-18T16:59:37+05:30 [info]: Navigated to login.salesforce.com
+2024-10-18T16:59:37+05:30 [info]: Filled Username
+2024-10-18T16:59:37+05:30 [info]: Filled Password
+2024-10-18T16:59:37+05:30 [info]: Filled Username
+2024-10-18T16:59:37+05:30 [info]: Filled Password
+2024-10-18T16:59:39+05:30 [info]: Clicked login button
+2024-10-18T16:59:39+05:30 [info]: Clicked login button
+2024-10-18T16:59:44+05:30 [info]: Setup Title is visible
+2024-10-18T16:59:44+05:30 [info]: Clicked on App launcher icon
+2024-10-18T16:59:45+05:30 [info]: Setup Title is visible
+2024-10-18T16:59:45+05:30 [info]: Clicked on App launcher icon
+2024-10-18T16:59:46+05:30 [info]: Clicked on Service link in App launcher
+2024-10-18T16:59:51+05:30 [info]: Contacts tab is visible
+2024-10-18T16:59:51+05:30 [info]: Contacts Tab is clicked
+2024-10-18T16:59:53+05:30 [info]: New button isclicked
+2024-10-18T16:59:57+05:30 [info]: First nameis filled as vasanth
+2024-10-18T16:59:57+05:30 [info]: Last nameis filled as kumar
+2024-10-18T16:59:58+05:30 [info]: Save button is cicked
+2024-10-18T17:00:05+05:30 [error]: Unableto click on Service link in App launcher
+2024-10-18T17:03:44+05:30 [info]: Test for Contact Creation is started...
+2024-10-18T17:03:44+05:30 [info]: Test for Contact Creation is started...
+2024-10-18T17:03:46+05:30 [info]: Navigated to login.salesforce.com
+2024-10-18T17:03:46+05:30 [info]: Filled Username
+2024-10-18T17:03:46+05:30 [info]: Filled Password
+2024-10-18T17:03:46+05:30 [info]: Navigated to login.salesforce.com
+2024-10-18T17:03:46+05:30 [info]: Filled Username
+2024-10-18T17:03:46+05:30 [info]: Filled Password
+2024-10-18T17:03:49+05:30 [info]: Clicked login button
+2024-10-18T17:03:49+05:30 [info]: Clicked login button
+2024-10-18T17:03:55+05:30 [info]: Setup Title is visible
+2024-10-18T17:03:55+05:30 [info]: Clicked on App launcher icon
+2024-10-18T17:03:57+05:30 [info]: Setup Title is visible
+2024-10-18T17:03:57+05:30 [info]: Clicked on App launcher icon
+2024-10-18T17:03:57+05:30 [info]: Clicked on Service link in App launcher
+2024-10-18T17:03:58+05:30 [info]: Clicked on Service link in App launcher
+2024-10-18T17:04:01+05:30 [info]: Contacts tab is visible
+2024-10-18T17:04:01+05:30 [info]: Contacts tab is visible
+2024-10-18T17:04:01+05:30 [info]: Contacts Tab is clicked
+2024-10-18T17:04:01+05:30 [info]: Contacts Tab is clicked
+2024-10-18T17:04:03+05:30 [info]: New button isclicked
+2024-10-18T17:04:10+05:30 [info]: First nameis filled as chella
+2024-10-18T17:04:10+05:30 [info]: Last nameis filled as k
+2024-10-18T17:04:10+05:30 [info]: New button isclicked
+2024-10-18T17:04:11+05:30 [info]: Save button is cicked
+2024-10-18T17:04:13+05:30 [info]: First nameis filled as nachi
+2024-10-18T17:04:13+05:30 [info]: Last nameis filled as s
+2024-10-18T17:04:14+05:30 [error]: Error clicking Save button: Error: locator.click: Test timeout of 30000ms exceeded.
 Call log:
-  [2m- expect.toBeVisible with timeout 15000ms[22m
-[2m  - waiting for locator('//span[@title=\'Setupp\']')[22m
+  [2m- waiting for getByRole('button', { name: 'Save', exact: true })[22m
 
+2024-10-18T17:04:14+05:30 [info]: Save button is cicked
+2024-10-18T17:07:31+05:30 [info]: Test for Contact Creation is started...
+2024-10-18T17:07:32+05:30 [info]: Test for Contact Creation is started...
+2024-10-18T17:07:34+05:30 [info]: Navigated to login.salesforce.com
+2024-10-18T17:07:34+05:30 [info]: Navigated to login.salesforce.com
+2024-10-18T17:07:34+05:30 [info]: Filled Username
+2024-10-18T17:07:34+05:30 [info]: Filled Username
+2024-10-18T17:07:34+05:30 [info]: Filled Password
+2024-10-18T17:07:34+05:30 [info]: Filled Password
+2024-10-18T17:07:36+05:30 [info]: Clicked login button
+2024-10-18T17:07:39+05:30 [info]: Clicked login button
+2024-10-18T17:07:41+05:30 [info]: Setup Title is visible
+2024-10-18T17:07:41+05:30 [info]: Clicked on App launcher icon
+2024-10-18T17:07:43+05:30 [info]: Clicked on Service link in App launcher
+2024-10-18T17:07:44+05:30 [info]: Setup Title is visible
+2024-10-18T17:07:44+05:30 [info]: Clicked on App launcher icon
+2024-10-18T17:07:46+05:30 [info]: Clicked on Service link in App launcher
+2024-10-18T17:07:46+05:30 [info]: Contacts tab is visible
+2024-10-18T17:07:46+05:30 [info]: Contacts Tab is clicked
+2024-10-18T17:07:48+05:30 [info]: New button isclicked
+2024-10-18T17:07:49+05:30 [info]: Contacts tab is visible
+2024-10-18T17:07:49+05:30 [info]: Contacts Tab is clicked
+2024-10-18T17:07:51+05:30 [info]: First nameis filled as selva 
+2024-10-18T17:07:51+05:30 [info]: Last nameis filled as kr
+2024-10-18T17:07:51+05:30 [info]: New button isclicked
+2024-10-18T17:07:52+05:30 [info]: Save button is cicked
+2024-10-18T17:07:54+05:30 [info]: First nameis filled as abi
+2024-10-18T17:07:54+05:30 [info]: Last nameis filled as s
+2024-10-18T17:07:55+05:30 [info]: Save button is cicked
+2024-10-18T17:11:08+05:30 [info]: Test for Contact Creation is started...
+2024-10-18T17:11:08+05:30 [info]: Test for Contact Creation is started...
+2024-10-18T17:11:09+05:30 [info]: Navigated to login.salesforce.com
+2024-10-18T17:11:09+05:30 [info]: Navigated to login.salesforce.com
+2024-10-18T17:11:09+05:30 [info]: Filled Username
+2024-10-18T17:11:09+05:30 [info]: Filled Username
+2024-10-18T17:11:09+05:30 [info]: Filled Password
+2024-10-18T17:11:09+05:30 [info]: Filled Password
+2024-10-18T17:11:10+05:30 [info]: Clicked login button
+2024-10-18T17:11:10+05:30 [info]: Clicked login button
+2024-10-18T17:11:14+05:30 [info]: Setup Title is visible
+2024-10-18T17:11:14+05:30 [info]: Clicked on App launcher icon
+2024-10-18T17:11:15+05:30 [info]: Clicked on Service link in App launcher
+2024-10-18T17:11:15+05:30 [info]: Setup Title is visible
+2024-10-18T17:11:15+05:30 [info]: Clicked on App launcher icon
+2024-10-18T17:11:17+05:30 [info]: Contacts tab is visible
+2024-10-18T17:11:17+05:30 [info]: Clicked on Service link in App launcher
+2024-10-18T17:11:17+05:30 [info]: Contacts Tab is clicked
+2024-10-18T17:11:19+05:30 [info]: New button isclicked
+2024-10-18T17:11:20+05:30 [info]: Contacts tab is visible
+2024-10-18T17:11:20+05:30 [info]: Contacts Tab is clicked
+2024-10-18T17:11:21+05:30 [info]: First nameis filled as revathy
+2024-10-18T17:11:21+05:30 [info]: Last nameis filled as s
+2024-10-18T17:11:22+05:30 [info]: Save button is cicked
+2024-10-18T17:11:22+05:30 [info]: New button isclicked
+2024-10-18T17:11:24+05:30 [info]: New Contacted created and revathy s is visible
+2024-10-18T17:11:24+05:30 [info]: Test for Contact Creation is completed
+2024-10-18T17:11:25+05:30 [info]: First nameis filled as siva 
+2024-10-18T17:11:25+05:30 [info]: Last nameis filled as kr
+2024-10-18T17:11:26+05:30 [info]: Save button is cicked
+2024-10-18T17:11:29+05:30 [info]: New Contacted created and siva  kr is visible
+2024-10-18T17:11:29+05:30 [info]: Test for Contact Creation is completed
